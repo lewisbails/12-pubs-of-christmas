@@ -1,0 +1,50 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+}
+
+.header {
+    background-color: #ff6600;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.event-details {
+    padding: 20px;
+    background-color: #333;
+    border: 2px solid #ff6600;
+    margin: 20px;
+}
+
+.pubs-list {
+    padding: 20px;
+    background-color: #333;
+    border: 2px solid #ff6600;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.footer {
+    background-color: #ff6600;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
