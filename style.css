@@ -72,11 +72,14 @@ a {
 }
 
 .image-container {
-    width: 50%; /* Adjust this percentage as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically if needed */
+    width: 100%; /* Adjust this percentage as needed */
 }
 
 .dynamic-image {
-    width: 100%; /* 100% of the container's width */
+    width: 50%; /* 100% of the container's width */
     height: auto; /* Automatically adjust the height to maintain aspect ratio */
 }
 
