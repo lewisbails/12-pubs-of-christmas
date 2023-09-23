@@ -5,6 +5,10 @@ body {
     text-align: center;
 }
 
+.bg1{
+	background-image: url("https://i.imgur.com/YUPql5N.gif");
+}
+
 .header {
     background-color: #ff6600;
     padding: 20px;
