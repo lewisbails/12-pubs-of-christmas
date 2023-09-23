@@ -71,4 +71,13 @@ a {
     }
 }
 
+.image-container {
+    width: 50%; /* Adjust this percentage as needed */
+}
+
+.dynamic-image {
+    width: 100%; /* 100% of the container's width */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
 /* Rest of the CSS remains unchanged */
