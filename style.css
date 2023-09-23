@@ -8,7 +8,17 @@ body {
 .bg1{
 	background-image: url("https://i.imgur.com/YUPql5N.gif");
 }
-
+.center{
+	text-align: center;
+}
+.intro{
+	font-size:4em;
+}
+.max { 
+    display: block;
+    width: 860px;
+    word-wrap: break-word;
+}
 .header {
     background-color: #ff6600;
     padding: 20px;
