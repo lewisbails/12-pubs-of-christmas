@@ -1,8 +1,10 @@
-body {
-    background-color: #000;
-    color: #fff;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    text-align: center;
+html, body{
+	-webkit-font-smoothing:antialiased;
+	font-family: "Comic Sans MS", sans-serif;
+	line-height:1.4;
+	margin:0 auto;
+	max-width:860px;
+	height: 100%;
 }
 
 .bg1{
@@ -20,7 +22,7 @@ body {
     word-wrap: break-word;
 }
 .header {
-    background-color: #ff6600;
+    background-color: #000;
     padding: 20px;
 }
 
