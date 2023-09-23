@@ -1,66 +1,74 @@
-html, body{
-	-webkit-font-smoothing:antialiased;
-	font-family: "Comic Sans MS", sans-serif;
-	line-height:1.4;
-	margin:0 auto;
-	max-width:860px;
-	height: 100%;
+/* Updated 90s Christmas-themed CSS with "blink" animation */
+html, body {
+    -webkit-font-smoothing: antialiased;
+    font-family: "Comic Sans MS", sans-serif;
+    line-height: 1.4;
+    margin: 0 auto;
+    max-width: 860px;
+    height: 100%;
 }
 
-.bg1{
-	background-image: url("https://i.imgur.com/YUPql5N.gif");
+.center {
+    text-align: center;
 }
-.center{
-	text-align: center;
+
+.intro {
+    font-size: 4em;
 }
-.intro{
-	font-size:4em;
-}
-.max { 
+
+.max {
     display: block;
     width: 860px;
     word-wrap: break-word;
 }
-.header {
-    background-color: #000;
-    padding: 20px;
+
+.bg-90s {
+    background-image: url("https://i.imgur.com/YUPql5N.gif");
+    background-color: #00A0E4; /* Change background color to a 90s blue */
+    background-repeat: repeat; /* Repeat the background image */
 }
 
-h1 {
-    font-size: 36px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    margin-bottom: 20px;
+a {
+    color: #FFD700; /* Change link color to gold */
 }
 
-.event-details {
-    padding: 20px;
-    background-color: #333;
-    border: 2px solid #ff6600;
-    margin: 20px;
+/* Add 90s Christmas fonts and colors */
+.christmas-font {
+    font-family: "Comic Sans MS", sans-serif;
+    color: #FF6347; /* Change text color to a bright red */
 }
 
-.pubs-list {
-    padding: 20px;
-    background-color: #333;
-    border: 2px solid #ff6600;
-    margin: 20px;
+/* Style the list with 90s Christmas colors */
+.christmas-list {
+    list-style: none;
+    padding-left: 0;
+  color: #00FF00;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.christmas-list li {
+    color: #00FF00; /* Change list item color to green */
 }
 
-li {
-    font-size: 20px;
-    margin: 10px 0;
+/* @group Blink */
+.blink {
+    -webkit-animation: blink .75s linear infinite;
+    -moz-animation: blink .75s linear infinite;
+    -ms-animation: blink .75s linear infinite;
+    -o-animation: blink .75s linear infinite;
+    animation: blink .75s linear infinite;
 }
 
-.footer {
-    background-color: #ff6600;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+/* Define the "blink" animation */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
+/* Rest of the CSS remains unchanged */
